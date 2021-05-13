@@ -38,8 +38,12 @@ function AdDesigner () {
 
     let additionalClass = "";
     if (theme === true) {
-        additionalClass = " dark"
+        additionalClass = " dark";
     }
+
+
+
+
 
     return (
         <div className="AdDesignerContainer">
@@ -49,12 +53,12 @@ function AdDesigner () {
                 <p style={styles}>{flavor}</p>
             </div>
             <h4>What to Support</h4>
-            <button onClick={chocolate}>Chocolate</button>
-            <button onClick={vanilla}>Vanilla</button>
-            <button onClick={strawberry}>Strawberry</button>
+            <button disabled={flavor === "Chocolate"} onClick={chocolate}>Chocolate</button>
+            <button disabled={flavor === "Vanilla"} onClick={vanilla}>Vanilla</button>
+            <button disabled={flavor === "Strawberry"} onClick={strawberry}>Strawberry</button>
             <h4>Color Theme</h4>
-            <button onClick={dark}>Light</button>
-            <button onClick={light}>Dark</button>
+            <button disabled={theme === false} onClick={dark}>Light</button>
+            <button disabled={theme === true} onClick={light}>Dark</button>
             <h4>Font Size</h4>
             <button onClick={sizeDown}>Down</button>
             <span>{size}</span>
