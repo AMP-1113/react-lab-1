@@ -1,4 +1,24 @@
-.Header {
-  text-align: center;
-  border-bottom: 2px solid black;
+.App .AdDesignerContainer, .Votes {
+  font-family: sans-serif;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 50px;
+}
+
+button {
+  background-color:  #0e3c7e;
+  font-family: sans-serif;
+  color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.contentContainer {
+  flex-direction: column;
+}
+
 }

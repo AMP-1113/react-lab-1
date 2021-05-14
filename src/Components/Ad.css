@@ -1,0 +1,18 @@
+.voteBoxforAd {
+    height: 150px;
+    width: 250px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.voteBoxforAd.dark {
+    background-color: black;
+    color: white;
+}
+
+.Ad {
+    display: flex;
+    justify-content: space-around;
+
+  }

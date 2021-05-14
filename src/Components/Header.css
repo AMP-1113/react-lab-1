@@ -1,0 +1,14 @@
+.HeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+  }
+
+.Header {
+    font-family: 'Caveat', cursive;
+  }
+
+.HeaderContainer h1, h4 {
+    margin: 20px 50px;
+  }
