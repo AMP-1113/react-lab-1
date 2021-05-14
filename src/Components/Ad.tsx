@@ -10,10 +10,6 @@ interface Props {
 function Ad({flavor, fontSize, darkTheme}: Props) {
  
     const [ theme, setTheme ] = useState(false);
-    
-    // const styles = {
-    //     fontSize: size + "px",
-    // }
 
     let additionalClass = "";
     if (darkTheme === true) {
@@ -22,7 +18,7 @@ function Ad({flavor, fontSize, darkTheme}: Props) {
     return (
     <div className={"voteBoxforAd" + additionalClass}>
         <p>Vote For</p>
-        <p>{flavor}</p>
+        <p className="FlavorText">{flavor}</p>
     </div>
     )
 }

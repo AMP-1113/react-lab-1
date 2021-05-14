@@ -4,15 +4,21 @@
     border: 2px solid black;
     text-align: center;
     font-family: 'Caveat', cursive;
+    margin-top: 20px;
 }
 
 .voteBoxforAd.dark {
     background-color: black;
     color: white;
+    margin-top: 20px;
 }
 
 .Ad {
     display: flex;
     justify-content: space-around;
 
+  }
+
+  .FlavorText {
+      font-size: 30px;
   }

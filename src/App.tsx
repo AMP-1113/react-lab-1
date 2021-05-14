@@ -11,15 +11,15 @@ function App() {
       <div className="Header">
         <Header name="Adam" />
       </div>
-      {/* <div className="Ad">
+      <div className="Ad">
         <Ad flavor="Chocolate" fontSize={100} darkTheme={true}/>
         <Ad flavor="Vanilla" fontSize={100} darkTheme={false}/>
         <Ad flavor="Strawberry" fontSize={100} darkTheme={true}/>
-      </div> */}
+      </div>
       <div className="contentContainer">
-        <div className="AdDesignerContainer">
+        {/* <div className="AdDesignerContainer">
           <AdDesigner />
-        </div>
+        </div> */}
         <div className="VotesContainer">
           <Votes />
         </div>
