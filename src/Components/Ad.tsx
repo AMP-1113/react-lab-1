@@ -9,7 +9,6 @@ interface Props {
 
 function Ad({flavor, fontSize, darkTheme}: Props) {
  
-    const [ theme, setTheme ] = useState(false);
 
     let additionalClass = "";
     if (darkTheme === true) {
